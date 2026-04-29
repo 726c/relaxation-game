@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - text: 
+    - generic [ref=e99]:
+      - heading "准备开始放松" [level=2] [ref=e100]
+      - paragraph [ref=e101]: 找一个舒适的姿势躺下或坐好，跟随我的引导，慢慢放松全身。
+      - generic [ref=e102]: 呼吸引导即将开始...
+    - text: • • • •
+  - generic [ref=e94]:
+    - button [ref=e95] [cursor=pointer]
+    - generic [ref=e96]: "环境音: 雨声"
+    - button "人声引导" [ref=e97] [cursor=pointer]

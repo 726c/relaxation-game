@@ -1,0 +1,115 @@
+[   52360ms] [ERROR] Failed to load resource: net::ERR_TIMED_OUT @ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css:0
+[   52546ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52547ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52547ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52547ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52547ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52547ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52548ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52548ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52548ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52548ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52548ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52548ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52548ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52548ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52549ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52549ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52549ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52549ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52549ms] [WARNING] The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio @ http://localhost:8765/relaxation-game.js:695
+[   52585ms] [LOG] 渐进放松助眠游戏已加载完成！ @ http://localhost:8765/relaxation-game.js:2359
+[   52585ms] [LOG] 使用说明: @ http://localhost:8765/relaxation-game.js:2360
+[   52585ms] [LOG] - 点击"开始放松之旅"开始 @ http://localhost:8765/relaxation-game.js:2361
+[   52585ms] [LOG] - 使用左右箭头键或屏幕上的按钮导航 @ http://localhost:8765/relaxation-game.js:2362
+[   52585ms] [LOG] - 在放松界面，可以左右滑动切换步骤 @ http://localhost:8765/relaxation-game.js:2363
+[   52585ms] [LOG] - 按ESC键返回首页 @ http://localhost:8765/relaxation-game.js:2364
+[   52585ms] [LOG] - 每个步骤有自动倒计时，结束后会自动进入下一步 @ http://localhost:8765/relaxation-game.js:2365
+[   52588ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-opening.mp3:0
+[   52588ms] [WARNING] 语音加载失败 [opening]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52588ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-forehead.mp3:0
+[   52588ms] [WARNING] 语音加载失败 [forehead]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-face.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [face]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-eyes.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [eyes]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-neck.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [neck]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-shoulders.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [shoulders]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-arms.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [arms]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-chest.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [chest]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-abdomen.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [abdomen]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-hips.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [hips]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-thighs.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [thighs]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-calves.mp3:0
+[   52589ms] [WARNING] 语音加载失败 [calves]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52590ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-round2.mp3:0
+[   52590ms] [WARNING] 语音加载失败 [round2]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52590ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-feet.mp3:0
+[   52590ms] [WARNING] 语音加载失败 [feet]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52590ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-round3.mp3:0
+[   52590ms] [WARNING] 语音加载失败 [round3]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52590ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-sleep-sink.mp3:0
+[   52590ms] [WARNING] 语音加载失败 [sleepSink]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52590ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-deep-relax.mp3:0
+[   52590ms] [WARNING] 语音加载失败 [deepRelax]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52590ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-ending.mp3:0
+[   52590ms] [WARNING] 语音加载失败 [ending]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   52951ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/favicon.ico:0
+[   82783ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-opening.mp3:0
+[   82783ms] [WARNING] 语音加载失败 [opening]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82783ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-forehead.mp3:0
+[   82783ms] [WARNING] 语音加载失败 [forehead]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82783ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-eyes.mp3:0
+[   82783ms] [WARNING] 语音加载失败 [eyes]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82783ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-face.mp3:0
+[   82783ms] [WARNING] 语音加载失败 [face]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82783ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-neck.mp3:0
+[   82783ms] [WARNING] 语音加载失败 [neck]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82783ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-shoulders.mp3:0
+[   82783ms] [WARNING] 语音加载失败 [shoulders]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-arms.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [arms]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-chest.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [chest]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-abdomen.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [abdomen]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-hips.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [hips]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-thighs.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [thighs]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-calves.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [calves]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-feet.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [feet]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-round2.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [round2]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-deep-relax.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [deepRelax]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-round3.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [round3]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-ending.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [ending]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82784ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-sleep-sink.mp3:0
+[   82784ms] [WARNING] 语音加载失败 [sleepSink]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[   82887ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/favicon.ico:0
+[   87790ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-forehead.mp3:0
+[   87790ms] [WARNING] 语音加载失败 [forehead]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[  103895ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-eyes.mp3:0
+[  103896ms] [WARNING] 语音加载失败 [eyes]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[  135060ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-face.mp3:0
+[  135060ms] [WARNING] 语音加载失败 [face]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[  151895ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-neck.mp3:0
+[  151895ms] [WARNING] 语音加载失败 [neck]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[  175894ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-shoulders.mp3:0
+[  175894ms] [WARNING] 语音加载失败 [shoulders]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[  199894ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-arms.mp3:0
+[  199894ms] [WARNING] 语音加载失败 [arms]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751
+[  223894ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8765/voices/v-chest.mp3:0
+[  223894ms] [WARNING] 语音加载失败 [chest]: HTTP 404 @ http://localhost:8765/relaxation-game.js:751

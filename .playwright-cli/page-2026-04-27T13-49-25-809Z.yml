@@ -1,0 +1,139 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]: 
+      - heading "渐进放松助眠游戏" [level=1] [ref=e7]
+      - paragraph [ref=e8]: 闭上眼睛，跟随声音引导，逐步放松全身
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: 
+          - generic [ref=e12]: 人声引导
+          - generic [ref=e13]: 闭眼也能完成
+        - generic [ref=e14]:
+          - generic [ref=e15]: 
+          - generic [ref=e16]: 7种环境音
+          - generic [ref=e17]: 雨声海浪篝火…
+        - generic [ref=e18]:
+          - generic [ref=e19]: 
+          - generic [ref=e20]: 深色护眼
+          - generic [ref=e21]: 零蓝光刺激
+      - generic [ref=e22]:
+        - heading " 选择时长" [level=3] [ref=e23]:
+          - generic [ref=e24]: 
+          - text: 选择时长
+        - generic [ref=e25]:
+          - button " 短时放松 1轮 · 约3分钟" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: 
+            - generic [ref=e28]: 短时放松
+            - generic [ref=e29]: 1轮 · 约3分钟
+          - button " 深度入睡 3轮递进 · 约13分钟" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]: 
+            - generic [ref=e32]: 深度入睡
+            - generic [ref=e33]: 3轮递进 · 约13分钟
+        - paragraph [ref=e34]: 短时适合快速放松，深度入睡适合难以入眠时使用
+      - generic [ref=e35]:
+        - heading " 个性化设置" [level=3] [ref=e36]:
+          - generic [ref=e37]: 
+          - text: 个性化设置
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: 
+            - text: 呼吸节奏
+          - generic [ref=e41]:
+            - button "慢速 (12秒)" [ref=e42] [cursor=pointer]
+            - button "中速 (8秒)" [ref=e43] [cursor=pointer]
+            - button "快速 (6秒)" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: 人声引导
+          - generic [ref=e48]:
+            - button "开启" [ref=e49] [cursor=pointer]
+            - generic [ref=e50]: 朗读引导语，闭眼也能完成放松
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: 
+            - text: 环境音
+          - generic [ref=e54]:
+            - button " 雨声" [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]: 
+              - text: 雨声
+            - button " 海浪" [ref=e57] [cursor=pointer]:
+              - generic [ref=e58]: 
+              - text: 海浪
+            - button " 溪流" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: 溪流
+            - button " 篝火" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: 
+              - text: 篝火
+            - button " 虫鸣" [ref=e63] [cursor=pointer]:
+              - generic [ref=e64]: 
+              - text: 虫鸣
+            - button " 白噪音" [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: 
+              - text: 白噪音
+            - button " 无" [ref=e67] [cursor=pointer]:
+              - generic [ref=e68]: 
+              - text: 无
+      - generic [ref=e69]:
+        - heading " 放松流程一览 " [level=3] [ref=e70] [cursor=pointer]:
+          - generic [ref=e71]: 
+          - text: 放松流程一览 
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e75]: 
+            - generic [ref=e76]:
+              - generic [ref=e77]: 头部放松
+              - generic [ref=e78]: 额头与头皮 → 眼睛与眼周 → 脸颊与下巴
+              - generic [ref=e79]: 约 15 秒
+          - generic [ref=e80]:
+            - generic [ref=e82]: 
+            - generic [ref=e83]:
+              - generic [ref=e84]: 颈肩放松
+              - generic [ref=e85]: 颈部 → 肩膀
+              - generic [ref=e86]: 约 12 秒
+          - generic [ref=e87]:
+            - generic [ref=e89]: 
+            - generic [ref=e90]:
+              - generic [ref=e91]: 上肢放松
+              - generic [ref=e92]: 手臂与双手
+              - generic [ref=e93]: 约 5 秒
+          - generic [ref=e94]:
+            - generic [ref=e96]: 
+            - generic [ref=e97]:
+              - generic [ref=e98]: 躯干放松
+              - generic [ref=e99]: 胸部与背部 → 腹部
+              - generic [ref=e100]: 约 13 秒
+          - generic [ref=e101]:
+            - generic [ref=e103]: 
+            - generic [ref=e104]:
+              - generic [ref=e105]: 下肢放松
+              - generic [ref=e106]: 臀部与骨盆 → 大腿 → 小腿与脚踝 → 双脚与脚趾
+              - generic [ref=e107]: 约 21 秒
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]: 
+            - generic [ref=e111]:
+              - text: 共
+              - strong [ref=e112]: "12"
+              - text: 个步骤
+          - generic [ref=e113]:
+            - generic [ref=e114]: 
+            - generic [ref=e115]:
+              - text: 总时长约
+              - strong [ref=e116]: 3分20秒
+          - generic [ref=e117]:
+            - generic [ref=e118]: 
+            - generic [ref=e119]: 全程呼吸引导
+      - button " 开始放松之旅" [ref=e120] [cursor=pointer]:
+        - generic [ref=e121]: 
+        - text: 开始放松之旅
+      - paragraph [ref=e122]: 建议在安静、昏暗的环境中使用，佩戴耳机效果更佳
+    - text:                 • • • •  
+  - generic [ref=e123]:
+    - button "" [ref=e124] [cursor=pointer]:
+      - generic [ref=e125]: 
+    - generic [ref=e126]: "环境音: 雨声"
+    - button "" [ref=e127] [cursor=pointer]:
+      - generic [ref=e128]: 

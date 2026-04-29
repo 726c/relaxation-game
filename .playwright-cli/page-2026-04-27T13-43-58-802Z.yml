@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - text:                             
+    - generic [ref=e130]:
+      - generic [ref=e132]: 
+      - heading "准备开始放松" [level=2] [ref=e133]
+      - paragraph [ref=e134]: 找一个舒适的姿势躺下或坐好，跟随我的引导，慢慢放松全身。
+      - generic [ref=e135]:
+        - generic [ref=e136]: 
+        - text: 呼吸引导即将开始...
+    - text:               • • • •  
+  - generic [ref=e123]:
+    - button "" [ref=e124] [cursor=pointer]:
+      - generic [ref=e125]: 
+    - generic [ref=e126]: "环境音: 雨声"
+    - button "" [ref=e127] [cursor=pointer]:
+      - generic [ref=e128]: 
