@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渐进放松助眠游戏</title>
+    <link rel="stylesheet" href="relaxation-game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 星空粒子背景 -->
+    <canvas id="starfield"></canvas>
+
+    <div class="container">
+        <!-- 欢迎界面 -->
+        <div id="welcome-screen" class="screen active">
+            <div class="welcome-content">
+                <div class="moon-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <h1>渐进放松助眠游戏</h1>
+                <p class="subtitle">闭上眼睛，跟随声音引导，逐步放松全身</p>
+                
+                <!-- 特性说明 -->
+                <div class="feature-cards">
+                    <div class="feature-card">
+                        <i class="fas fa-volume-up"></i>
+                        <span>人声引导</span>
+                        <small>闭眼也能完成</small>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-cloud-rain"></i>
+                        <span>7种环境音</span>
+                        <small>雨声海浪篝火…</small>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-moon"></i>
+                        <span>深色护眼</span>
+                        <small>零蓝光刺激</small>
+                    </div>
+                </div>
+
+                <!-- 时长模式选择 -->
+                <div class="mode-selection">
+                    <h3><i class="fas fa-hourglass-half"></i> 选择时长</h3>
+                    <div class="mode-options">
+                        <button class="mode-option active" data-mode="short">
+                            <i class="fas fa-bolt"></i>
+                            <span class="mode-name">短时放松</span>
+                            <span class="mode-desc">1轮 · 约3分钟</span>
+                        </button>
+                        <button class="mode-option" data-mode="long">
+                            <i class="fas fa-moon"></i>
+                            <span class="mode-name">深度入睡</span>
+                            <span class="mode-desc">3轮递进 · 约13分钟</span>
+                        </button>
+                    </div>
+                    <p class="mode-tip">短时适合快速放松，深度入睡适合难以入眠时使用</p>
+                </div>
+                
+                <!-- 个性化设置 -->
+                <div class="personalization">
+                    <h3><i class="fas fa-sliders-h"></i> 个性化设置</h3>
+                    
+                    <!-- 呼吸节奏 -->
+                    <div class="setting-group">
+                        <label class="setting-label"><i class="fas fa-wind"></i> 呼吸节奏</label>
+                        <div class="speed-options">
+                            <button class="speed-option" data-speed="slow">
+                                慢速 (12秒)
+                            </button>
+                            <button class="speed-option active" data-speed="medium">
+                                中速 (8秒)
+                            </button>
+                            <button class="speed-option" data-speed="fast">
+                                快速 (6秒)
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 人声引导开关 -->
+                    <div class="setting-group">
+                        <label class="setting-label"><i class="fas fa-microphone"></i> 人声引导</label>
+                        <div class="toggle-switch-container">
+                            <button class="toggle-switch active" id="voice-toggle" data-on="true">
+                                <span class="toggle-label-on">开启</span>
+                                <span class="toggle-label-off">关闭</span>
+                            </button>
+                            <small class="toggle-hint">朗读引导语，闭眼也能完成放松</small>
+                        </div>
+                    </div>
+
+                    <!-- 环境音选择 -->
+                    <div class="setting-group">
+                        <label class="setting-label"><i class="fas fa-cloud-rain"></i> 环境音</label>
+                        <div class="sound-options">
+                            <button class="sound-option active" data-sound="rain">
+                                <i class="fas fa-cloud-rain"></i> 雨声
+                            </button>
+                            <button class="sound-option" data-sound="ocean">
+                                <i class="fas fa-water"></i> 海浪
+                            </button>
+                            <button class="sound-option" data-sound="stream">
+                                <i class="fas fa-tint"></i> 溪流
+                            </button>
+                            <button class="sound-option" data-sound="campfire">
+                                <i class="fas fa-fire"></i> 篝火
+                            </button>
+                            <button class="sound-option" data-sound="crickets">
+                                <i class="fas fa-bug"></i> 虫鸣
+                            </button>
+                            <button class="sound-option" data-sound="whitenoise">
+                                <i class="fas fa-wave-square"></i> 白噪音
+                            </button>
+                            <button class="sound-option" data-sound="none">
+                                <i class="fas fa-volume-mute"></i> 无
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 流程一览 -->
+                <div class="flow-overview">
+                    <h3><i class="fas fa-route"></i> 放松流程一览</h3>
+                    <div class="flow-timeline">
+                        <div class="flow-phase">
+                            <div class="phase-icon"><i class="fas fa-head-side-virus"></i></div>
+                            <div class="phase-info">
+                                <span class="phase-name">头部放松</span>
+                                <span class="phase-detail">额头与头皮 → 眼睛与眼周 → 脸颊与下巴</span>
+                                <span class="phase-time">约 15 秒</span>
+                            </div>
+                        </div>
+                        <div class="flow-phase">
+                            <div class="phase-icon"><i class="fas fa-user"></i></div>
+                            <div class="phase-info">
+                                <span class="phase-name">颈肩放松</span>
+                                <span class="phase-detail">颈部 → 肩膀</span>
+                                <span class="phase-time">约 12 秒</span>
+                            </div>
+                        </div>
+                        <div class="flow-phase">
+                            <div class="phase-icon"><i class="fas fa-hand-paper"></i></div>
+                            <div class="phase-info">
+                                <span class="phase-name">上肢放松</span>
+                                <span class="phase-detail">手臂与双手</span>
+                                <span class="phase-time">约 5 秒</span>
+                            </div>
+                        </div>
+                        <div class="flow-phase">
+                            <div class="phase-icon"><i class="fas fa-heart"></i></div>
+                            <div class="phase-info">
+                                <span class="phase-name">躯干放松</span>
+                                <span class="phase-detail">胸部与背部 → 腹部</span>
+                                <span class="phase-time">约 13 秒</span>
+                            </div>
+                        </div>
+                        <div class="flow-phase">
+                            <div class="phase-icon"><i class="fas fa-shoe-prints"></i></div>
+                            <div class="phase-info">
+                                <span class="phase-name">下肢放松</span>
+                                <span class="phase-detail">臀部与骨盆 → 大腿 → 小腿与脚踝 → 双脚与脚趾</span>
+                                <span class="phase-time">约 21 秒</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flow-summary">
+                        <div class="summary-item">
+                            <i class="fas fa-list-ol"></i>
+                            <span>共 <strong id="flow-step-count">12</strong> 个步骤</span>
+                        </div>
+                        <div class="summary-item">
+                            <i class="fas fa-clock"></i>
+                            <span>总时长约 <strong id="flow-duration">66 秒</strong></span>
+                        </div>
+                        <div class="summary-item">
+                            <i class="fas fa-lungs"></i>
+                            <span id="flow-rounds">全程呼吸引导</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="start-btn" class="btn-primary">
+                    <i class="fas fa-bed"></i> 开始放松之旅
+                </button>
+                <p class="tip">建议在安静、昏暗的环境中使用，佩戴耳机效果更佳</p>
+            </div>
+        </div>
+
+        <!-- 放松步骤界面 -->
+        <!-- 准备过渡页 -->
+        <div id="preparing-screen" class="screen">
+            <div class="preparing-content">
+                <div class="preparing-icon">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <h2 class="preparing-title">准备开始放松</h2>
+                <p class="preparing-text" id="preparing-text">找一个舒适的姿势躺下或坐好，跟随我的引导，慢慢放松全身。</p>
+                <div class="preparing-breath-hint">
+                    <i class="fas fa-wind"></i> 呼吸引导即将开始...
+                </div>
+            </div>
+        </div>
+
+        <div id="relaxation-screen" class="screen">
+            <div class="relaxation-header">
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <div class="progress-text" id="progress-text">步骤 1/12</div>
+                </div>
+                <div class="timer" id="timer">保持放松: <span id="countdown">5</span>秒</div>
+            </div>
+
+            <div class="relaxation-content">
+                <div class="body-part-icon" id="body-part-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h2 id="body-part-title">额头与头皮</h2>
+                <div class="instruction-text" id="instruction-text">
+                    轻轻闭上眼睛，将注意力集中在额头和头皮上。感受这里的肌肉，然后有意识地让它们完全放松。
+                </div>
+                
+                <!-- 呼吸引导动画 -->
+                <div class="breathing-animation">
+                    <div class="breathing-circle" id="breathing-circle">
+                        <div class="breathing-text">吸气...</div>
+                    </div>
+                    <div class="breathing-instruction">
+                        <i class="fas fa-wind"></i> 跟随圆圈的膨胀与收缩进行呼吸
+                    </div>
+                </div>
+
+                <!-- 互动放松区域 -->
+                <div class="interactive-area">
+                    <div class="interactive-instruction">
+                        <i class="fas fa-hand-pointer"></i> 点击下方部位确认放松
+                    </div>
+                    <div class="body-part-visual" id="body-part-visual">
+                        <!-- 动态部位图像将通过JS生成 -->
+                    </div>
+                    <div class="interactive-feedback" id="interactive-feedback">
+                        放松进度: <span id="relax-progress">0%</span>
+                    </div>
+                    <div class="engagement-progress-container">
+                        <div class="engagement-progress-bar" id="engagement-progress-bar"></div>
+                        <div class="engagement-progress-text" id="engagement-progress-text">参与度: 观察者</div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="prev-btn" class="btn-secondary">
+                        <i class="fas fa-arrow-left"></i> 上一步
+                    </button>
+                    <button id="next-btn" class="btn-primary">
+                        下一步 <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <button id="back-home-btn" class="btn-back-home" title="返回首页">
+                <i class="fas fa-home"></i> 返回首页
+            </button>
+        </div>
+
+        <!-- 完成界面 -->
+        <div id="completion-screen" class="screen">
+            <div class="completion-content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h1>放松完成！</h1>
+                <p class="completion-message">
+                    你的身体已经得到了充分的放松。<br>
+                    现在可以自然地进入睡眠状态了。
+                </p>
+                <div class="score-display">
+                    <div class="score-item">
+                        <i class="fas fa-star"></i>
+                        <span>放松积分: <strong id="final-score">0</strong></span>
+                    </div>
+                    <div class="score-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>放松部位: <strong id="relaxed-count">0</strong>/<span id="total-steps-count">12</span></span>
+                    </div>
+                    <div class="score-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>评级: <strong id="rating">初级</strong></span>
+                    </div>
+                </div>
+
+                <!-- 睡眠日程记录 -->
+                <div class="sleep-diary">
+                    <h3><i class="fas fa-calendar-alt"></i> 睡眠日程</h3>
+                    <div class="diary-entry" id="today-entry">
+                        <div class="diary-date" id="diary-date"></div>
+                        <div class="diary-details">
+                            <span id="diary-mode"></span>
+                            <span id="diary-duration"></span>
+                        </div>
+                    </div>
+                    <div class="diary-history" id="diary-history">
+                        <!-- 历史记录将动态生成 -->
+                    </div>
+                    <p class="diary-tip">记录每日放松练习，帮助你养成入睡好习惯</p>
+                </div>
+
+                <div class="sleep-tips">
+                    <h3><i class="fas fa-lightbulb"></i> 助眠小贴士</h3>
+                    <ul>
+                        <li>保持卧室黑暗、安静、凉爽</li>
+                        <li>避免睡前使用电子设备</li>
+                        <li>尝试聆听自然声音（雨声、风声）</li>
+                        <li>如果思绪纷乱，可再次进行放松练习</li>
+                    </ul>
+                </div>
+                <div class="action-buttons">
+                    <button id="restart-btn" class="btn-primary">
+                        <i class="fas fa-redo"></i> 重新开始
+                    </button>
+                    <button id="home-btn" class="btn-secondary">
+                        <i class="fas fa-home"></i> 返回首页
+                    </button>
+                </div>
+                <p class="final-tip">祝你好梦，晚安！</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 音频控制面板 -->
+    <div class="audio-control-panel">
+        <button id="music-toggle" class="audio-btn">
+            <i class="fas fa-volume-up"></i>
+        </button>
+        <div class="audio-info" id="music-info">环境音: 雨声</div>
+        <button id="voice-toggle-float" class="audio-btn" title="人声引导">
+            <i class="fas fa-microphone"></i>
+        </button>
+    </div>
+
+    <script src="relaxation-game.js"></script>
+</body>
+</html>

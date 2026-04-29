@@ -1,0 +1,8 @@
+# 排除非游戏文件
+voice-all.mp3
+voice-scripts.md
+voice-scripts-v2.md
+voice-scripts-v3.md
+讯飞智作操作指南.md
+.workbuddy/
+*.jsonl
